@@ -4,6 +4,10 @@
 * Get a temporary email
 * Recieve emails
 
+<h2>Installation</h2>
+
+`v install https://github.com/phoreverpheebs/v-10minutemail`
+
 <h2>Usage</h2>
 
 Initialise a new email:
