@@ -12,7 +12,7 @@
 
 Initialise a new email:
 ```v
-mymail := 10minutemail.new_mail() or { panic(err) }
+mut mymail := 10minutemail.new_mail() or { panic(err) }
 
 // print current email
 println(mymail.mail())
