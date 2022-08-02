@@ -1,4 +1,4 @@
-<h1>v-10minutemail</h1>
+<h1>v-tenminutemail</h1>
 
 * V wrapper for 10minutemail.com
 * Get a temporary email
@@ -6,13 +6,15 @@
 
 <h2>Installation</h2>
 
-`v install https://github.com/phoreverpheebs/v-10minutemail`
+`v install https://github.com/phoreverpheebs/v-tenminutemail`
 
 <h2>Usage</h2>
 
 Initialise a new email:
 ```v
-mut mymail := 10minutemail.new_mail() or { panic(err) }
+import phoreverpheebs.v_tenminutemail as tenminutemail
+
+mut mymail := tenminutemail.new_mail() or { panic(err) }
 
 // print current email
 println(mymail.mail())

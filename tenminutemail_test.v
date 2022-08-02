@@ -1,4 +1,4 @@
-module tenminutemail
+module v_tenminutemail
 
 import time
 

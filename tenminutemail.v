@@ -1,6 +1,6 @@
 // tenminutemail.v
 // https://10minutemail.com/
-module tenminutemail
+module v_tenminutemail
 
 import time
 import net.http

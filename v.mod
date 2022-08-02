@@ -1,5 +1,5 @@
 Module {
-	name: 'tenminutemail'
+	name: 'v_tenminutemail'
 	description: ''
 	version: ''
 	license: ''
